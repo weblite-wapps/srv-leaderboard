@@ -15,4 +15,5 @@ db.connect("leaderboard_db")
 app.use(cors({ origin: "*" }))
 app.use("/", router.router)
 
-app.listen(8080)
+app.listen(5100)
+
